@@ -20,13 +20,15 @@
     <div class='container'>
         <div class='row'>
             <div class='col-12'>
-               <h1>centro</h1>
-               @foreach ($prodotto as $fumetto )
-               <ul>
-                <li>{{ $fumetto['title'] }}</li>
+               <ul class="list-unstyled d-flex">
+                   @foreach ($prodotto as $fumetto)
+                    <li>
+                        <img src="{{$fumetto['thumb']}}">
+                        <h4>{{ $fumetto['title'] }}</h4>
+                    </li>
+                    @endforeach
                </ul>
                    
-               @endforeach
             </div>
         </div>
     </div>
