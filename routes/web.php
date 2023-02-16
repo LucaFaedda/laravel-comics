@@ -17,5 +17,6 @@ Route::get('/', function () {
     $prodotto = config('comics');
     $listaFooter = config('footer'); 
     $listaIcone = config('icons');
-    return view('home', compact('prodotto', 'listaFooter', 'listaIcone'));
+    $listaSocial= config('social');
+    return view('home', compact('prodotto', 'listaFooter', 'listaIcone', 'listaSocial'));
 });
