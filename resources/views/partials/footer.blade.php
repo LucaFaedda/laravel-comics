@@ -68,7 +68,7 @@
                         <img class="mx-1" src="{{ asset(Vite::asset($item['img'])) }}" alt="{{$item['nome']}}">
                         @endforeach
                     </div>
-                    <h3 class="me-2 text-light">FOLLOW US</h3>
+                    <h3 class="me-2 color-blu ">FOLLOW US</h3>
                 </div>
             </div>
         </div>
