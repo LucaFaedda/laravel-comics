@@ -6,14 +6,34 @@ li {
     margin: 0px 1rem;
 }
 
-input {
+.input-personale {
     border: none;
     border-bottom: 1px solid #0282f9;
     text-align: right;
+    background-color: transparent;
+    width: 200px;
+    padding: 20px;
+    position: relative;
 }
+
+.lente {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
 
 .bg-personalizzato {
     background-color: #0282f9;
     font-size: 10px;
     height: 25px;
+}
+
+.fa-trademark {
+    font-size: 8px;
 }

@@ -32,12 +32,12 @@
                                     </div>
                                     <h6 class="text-light">{{ $fumetto['series'] }}</h6>
                                 </div>
-
-                             @endforeach
-
-    
+                            @endforeach
                     </div>
                        
+                </div>
+                <div class="col-12 d-flex justify-content-center mb-5 ">
+                    <button class="text-light tw-bold btn-personalizzato ">LOAD MORE</button>
                 </div>
             </div>
         </div>

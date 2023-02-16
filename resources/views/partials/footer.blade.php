@@ -50,25 +50,25 @@
                                 @endforeach
                         </div>
                     </div>
-                    <p class="text-light mt-3">All Site TM and simbolo 2020 DC Entertainment, unless otherwise noted here. All rights reserved<br>Cookies Setting</p>
+                    <p class="text-light mt-3 personal-size">All Site TM and simbolo 2020 DC Entertainment, unless otherwise noted here. All rights reserved<br>Cookies Setting</p>
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="container-fluid bk-gray">
+    <div class="container-fluid bk-grey">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-4">
                     <button class="btn-personal">SIGN-UP NOW</button>
                 </div>
-                <div class="col-8 d-flex align-items-center">
-                    <h3 class="me-2">FOLLOW US</h3>
-                    <div class="d-flex list-unstyled justify-content-between py-5 text-light">
+                <div class="col-8 d-flex align-items-center flex-row-reverse">
+                    <div class="d-flex list-unstyled  py-5 text-light">
                         @foreach ($listaSocial as $item )
-                            <img class="mx-1" src="{{ asset(Vite::asset($item['img'])) }}" alt="{{$item['nome']}}">
+                        <img class="mx-1" src="{{ asset(Vite::asset($item['img'])) }}" alt="{{$item['nome']}}">
                         @endforeach
                     </div>
+                    <h3 class="me-2 text-light">FOLLOW US</h3>
                 </div>
             </div>
         </div>

@@ -25,6 +25,10 @@ a {
     }
 }
 
+.bk-grey {
+    background-color: #303030;
+}
+
 .btn-personal {
     padding: 15px;
     border: 1px solid #0282f9;
@@ -32,4 +36,8 @@ a {
     color: #fff;
     font-size: 25px;
     cursor: pointer;
+}
+
+.personal-size {
+    font-size: 11px;
 }

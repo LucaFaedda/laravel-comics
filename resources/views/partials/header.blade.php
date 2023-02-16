@@ -4,10 +4,10 @@
             <div class="row">
                 <div class="col-12 d-flex flex-row-reverse my-2">
                     <div class="mx-5">
-                        <span class="text-light "><strong>DC POWER VISA</strong></span>
+                        <span class="text-light"><strong>ADDITIONAL DC SITES</strong></span>
                     </div>
                     <div >
-                        <span class="text-light"><strong>ADDITIONAL DC SITES</strong></span>
+                        <span class="text-light fw-bold">DC POWER<sup><i class="fa-solid fa-trademark"></i> </sup>VISA<i class="fa-regular fa-registered"></i></span>
                     </div>
         
                 </div>
@@ -56,8 +56,9 @@
                      </li>
                 </ul>
             </div>
-            <div class='col-2'>
-                <input type='text' placeholder="Search">
+            <div class='col-2 position-relative'>
+                <input type="search" placeholder="Search" class="input-personale">
+                <span><i class="fa-solid fa-magnifying-glass lente"></i></span>
             </div>
     
         </div>
