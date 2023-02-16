@@ -1,3 +1,12 @@
+a {
+    color: #959595;
+    text-decoration: none;
+}
+
+.bk-blue {
+    background-color: #0282f9;
+}
+
 .bk-image {
     background-image: url('../../img/footer-bg.jpg');
     background-size: cover;
@@ -10,7 +19,8 @@
     padding: 2rem 0rem;
 }
 
-a {
-    color: #959595;
-    text-decoration: none;
+.image-personal {
+    img {
+        width: 50px;
+    }
 }

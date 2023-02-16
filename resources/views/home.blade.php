@@ -23,7 +23,7 @@
     <div class="container-fluid bk-dark">
         <div class='container'>
             <div class='row'>
-                <div class='col-12'>
+                <div class='col-12 py-5'>
                     <div class="row">
                             @foreach ($prodotto as $fumetto)
                                 <div class="card-personalizzata">

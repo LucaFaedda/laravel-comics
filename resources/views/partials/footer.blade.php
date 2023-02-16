@@ -1,4 +1,24 @@
 <footer>
+    <div class="container-fluid bk-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="d-flex list-unstyled justify-content-between py-5 text-light">
+                        @foreach ($listaIcone as $item )
+                        <li class="d-flex align-items-center">
+                            <div class="image-personal">
+                                <img  src="{{ asset(Vite::asset($item['img'])) }}" alt="{{$item['nome']}}">
+                            </div>
+                            <p class="ms-1">{{$item['nome']}}</p>
+    
+                        </li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <div class="container-fluid bk-image">
         <div class="container">
             <div class='row'>
