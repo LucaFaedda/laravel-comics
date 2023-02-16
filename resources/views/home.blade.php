@@ -17,6 +17,9 @@
 
 <body >
     @include('partials.header')
+    <div class="jumbo">
+        
+    </div>
     <div class="container-fluid bk-dark">
         <div class='container'>
             <div class='row'>
