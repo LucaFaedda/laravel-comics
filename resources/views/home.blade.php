@@ -15,9 +15,9 @@
 
 </head>
 
-<body class='bg-primary'>
-    @include('partials.header')
+<body >
     <div class='container'>
+        @include('partials.header')
         <div class='row'>
             <div class='col-12'>
                 <div class="row">
