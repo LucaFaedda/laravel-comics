@@ -23,15 +23,13 @@
                 <div class='col-12'>
                     <div class="row">
                             @foreach ($prodotto as $fumetto)
-                            <div class='col-2 d-flex '>
                                 <div class="card-personalizzata">
                                     <div class="image-container">
                                         <img src="{{$fumetto['thumb']}}">
                                     </div>
-                                    <p class="text-light">{{ $fumetto['series'] }}</p>
+                                    <h6 class="text-light">{{ $fumetto['series'] }}</h6>
                                 </div>
-    
-                            </div>
+
                              @endforeach
 
     
