@@ -25,34 +25,34 @@
             <div class='col-8'>
                 <ul class='list-unstyled d-flex ' >
                     <li>
-                       <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('characters')}}" >CHARACTERS</a> 
+                       <a class="nav-link {{Route::currentRouteName()== 'caracters' ? 'active' : ''}}" href="{{route('caracters')}}" >CHARACTERS</a> 
                     </li>
                     <li>
-                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('comics')}}" >COMICS</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'comics' ? 'active' : ''}}" href="{{route('comics')}}" >COMICS</a> 
                      </li>
                      <li>
-                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('movies')}}" >MOVIES</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'movies' ? 'active' : ''}}" href="{{route('movies')}}" >MOVIES</a> 
                      </li>
                      <li>
-                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('tv')}}" >TV</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'tv' ? 'active' : ''}}" href="{{route('tv')}}" >TV</a> 
                      </li>
                      <li>
-                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('games')}}" >GAMES</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'games' ? 'active' : ''}}" href="{{route('games')}}" >GAMES</a> 
                      </li>
                      <li>
-                        <a> class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('collectibles')}}" COLLECTIBLES</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'collectibles' ? 'active' : ''}}" href="{{route('collectibles')}}"> COLLECTIBLES</a> 
                      </li>
                      <li>
-                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('videos')}}" >VIDEOS</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'videos' ? 'active' : ''}}" href="{{route('videos')}}" >VIDEOS</a> 
                      </li>
                      <li>
-                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('fans')}}" >FANS</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'fans' ? 'active' : ''}}" href="{{route('fans')}}" >FANS</a> 
                      </li>
                      <li>
-                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('news')}}" >NEWS</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'news' ? 'active' : ''}}" href="{{route('news')}}" >NEWS</a> 
                      </li>
                      <li>
-                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('shop')}}" >SHOP</a> 
+                        <a class="nav-link {{Route::currentRouteName()== 'shop' ? 'active' : ''}}" href="{{route('shop')}}" >SHOP</a> 
                      </li>
                 </ul>
             </div>
