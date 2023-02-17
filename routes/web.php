@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('home', function () {
     $prodotto = config('comics');
     $listaFooter = config('footer'); 
     $listaIcone = config('icons');
     $listaSocial= config('social');
     return view('home', compact('prodotto', 'listaFooter', 'listaIcone', 'listaSocial'));
-});
+})->name('home');
 
 Route::get('caracters', function () {
     return view('caracters');
