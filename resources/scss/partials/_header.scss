@@ -9,7 +9,6 @@ li {
 .input-personale {
     border: none;
     border-bottom: 1px solid #0282f9;
-    text-align: right;
     background-color: transparent;
     width: 200px;
     padding: 20px;
@@ -19,7 +18,7 @@ li {
 .lente {
     position: absolute;
     top: 25px;
-    right: 20px;
+    left: 15px;
 }
 
 input:focus {
