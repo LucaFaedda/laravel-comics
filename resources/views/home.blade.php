@@ -12,11 +12,15 @@
                 <div class='col-12 py-5'>
                     <div class="row">
                             @foreach ($prodotto as $fumetto)
+            
                                 <div class="card-personalizzata">
-                                    <div class="image-container">
-                                        <img src="{{$fumetto['thumb']}}">
-                                    </div>
-                                    <h6 class="text-light">{{ $fumetto['series'] }}</h6>
+                                    <a>
+                                        <div class="image-container">
+                                            <img src="{{$fumetto['thumb']}}">
+                                        </div>
+                                        <h6 class="text-light">{{ $fumetto['series'] }}</h6>
+
+                                    </a>
                                 </div>
                             @endforeach
                     </div>
