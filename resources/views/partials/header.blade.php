@@ -25,34 +25,34 @@
             <div class='col-8'>
                 <ul class='list-unstyled d-flex ' >
                     <li>
-                       <span>CHARACTERS</span> 
+                       <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('characters')}}" >CHARACTERS</a> 
                     </li>
                     <li>
-                        <span>COMICS</span> 
+                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('comics')}}" >COMICS</a> 
                      </li>
                      <li>
-                        <span>MOVIES</span> 
+                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('movies')}}" >MOVIES</a> 
                      </li>
                      <li>
-                        <span>TV</span> 
+                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('tv')}}" >TV</a> 
                      </li>
                      <li>
-                        <span>GAMES</span> 
+                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('games')}}" >GAMES</a> 
                      </li>
                      <li>
-                        <span>COLLECTIBLES</span> 
+                        <a> class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('collectibles')}}" COLLECTIBLES</a> 
                      </li>
                      <li>
-                        <span>VIDEOS</span> 
+                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('videos')}}" >VIDEOS</a> 
                      </li>
                      <li>
-                        <span>FANS</span> 
+                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('fans')}}" >FANS</a> 
                      </li>
                      <li>
-                        <span>NEWS</span> 
+                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('news')}}" >NEWS</a> 
                      </li>
                      <li>
-                        <span>SHOP</span> 
+                        <a class="nav-link {{Route::currentRouteName()== 'CHARACTERS' ? 'active' : ''}}" href="{{route('shop')}}" >SHOP</a> 
                      </li>
                 </ul>
             </div>

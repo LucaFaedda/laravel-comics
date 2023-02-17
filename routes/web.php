@@ -20,3 +20,43 @@ Route::get('/', function () {
     $listaSocial= config('social');
     return view('home', compact('prodotto', 'listaFooter', 'listaIcone', 'listaSocial'));
 });
+
+Route::get('/', function () {
+    return view('caracters');
+});
+
+Route::get('/', function () {
+    return view('comics');
+});
+
+Route::get('/', function () {
+    return view('movies');
+});
+
+Route::get('/', function () {
+    return view('tv');
+});
+
+Route::get('/', function () {
+    return view('games');
+});
+
+Route::get('/', function () {
+    return view('collectibles');
+});
+
+Route::get('/', function () {
+    return view('videos');
+});
+
+Route::get('/', function () {
+    return view('fans');
+});
+
+Route::get('/', function () {
+    return view('news');
+});
+
+Route::get('/', function () {
+    return view('shop');
+});
