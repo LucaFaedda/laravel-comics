@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('home', function () {
+Route::get('/', function () {
     $prodotto = config('comics');
     $listaFooter = config('footer'); 
     $listaIcone = config('icons');
@@ -22,41 +22,71 @@ Route::get('home', function () {
 })->name('home');
 
 Route::get('caracters', function () {
-    return view('caracters');
+    $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('caracters', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('caracters');
 
 Route::get('comics', function () {
-    return view('comics');
+    $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('comics', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('comics');
 
 Route::get('movies', function () {
-    return view('movies');
+    $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('movies', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('movies');
 
 Route::get('tv', function () {
-    return view('tv');
+    $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('tv', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('tv');
 
 Route::get('games', function () {
-    return view('games');
+     $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('games', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('games');
 
 Route::get('collectibles', function () {
-    return view('collectibles');
+     $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('collectibles', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('collectibles');
 
 Route::get('videos', function () {
-    return view('videos');
+     $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('videos', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('videos');
 
 Route::get('fans', function () {
-    return view('fans');
+     $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('fans', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('fans');
 
 Route::get('news', function () {
-    return view('news');
+     $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('news', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('news');
 
 Route::get('shop', function () {
-    return view('shop');
+     $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
+    return view('shop', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('shop');
