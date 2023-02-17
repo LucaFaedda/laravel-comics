@@ -22,7 +22,7 @@
             <div class='col-1'>
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt='logo'>
             </div>
-            <div class='col-8'>
+            <div class='col-9'>
                 <ul class='list-unstyled d-flex ' >
                     <li>
                         <a class="nav-link {{Route::currentRouteName()== 'home' ? 'active' : ''}}" href="{{route('home')}}" >HOME</a> 
