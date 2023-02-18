@@ -105,7 +105,7 @@ Route::get('news', function () {
 // sezione shop
 
 Route::get('shop', function () {
-     $listaFooter = config('footer'); 
+    $listaFooter = config('footer'); 
     $listaIcone = config('icons');
     $listaSocial= config('social');
     return view('shop', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
@@ -113,16 +113,20 @@ Route::get('shop', function () {
 
 // sezione comics singolo
 
-Route::get('/home/{param}', function ($param) {
+Route::get('/comics_singolo/{series}', function ($series) {
 
     $prodotto = config('comics');
+    $listaFooter = config('footer'); 
+    $listaIcone = config('icons');
+    $listaSocial= config('social');
 
     $comics_singolo = '';
-    foreach($prodotto as $fumetto){
-        if($fumetto['series'] == $param){
+    foreach($prodotto as $key => $fumetto){
+        if($key == $series){
             $comics_singolo = $fumetto;
         }
     }
     
-   return view('comics_singolo', compact( 'comics_singolo'));
-})->name('comics_singolo');
+    
+   return view('comics_singolo', compact( 'comics_singolo','listaFooter', 'listaIcone', 'listaSocial'));
+});

@@ -11,10 +11,10 @@
             <div class='row'>
                 <div class='col-12 py-5'>
                     <div class="row">
-                            @foreach ($prodotto as $fumetto)
+                            @foreach ($prodotto as $key => $fumetto)
             
                                 <div class="card-personalizzata">
-                                    <a href="{{rotue('comics_single', ['params' => $fumetto['series']])}}">
+                                    <a href="/comics_singolo/{{ $key }}">
                                         <div class="image-container">
                                             <img src="{{$fumetto['thumb']}}">
                                         </div>
