@@ -1,3 +1,7 @@
+@use './variables' as *;
+@use './mixin' as *;
+
+
 header {
     height: 200px;
 }
@@ -8,7 +12,7 @@ li {
 
 .input-personale {
     border: none;
-    border-bottom: 1px solid #0282f9;
+    border-bottom: 1px solid $primarycolor;
     background-color: transparent;
     width: 200px;
     padding: 20px;
@@ -28,7 +32,7 @@ input:focus {
 
 
 .bg-personalizzato {
-    background-color: #0282f9;
+    background-color: $primarycolor;
     font-size: 10px;
     height: 25px;
 }

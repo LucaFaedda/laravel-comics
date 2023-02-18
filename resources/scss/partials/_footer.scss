@@ -1,10 +1,13 @@
+@use './variables' as *;
+@use './mixin' as *;
+
 a {
     color: #959595;
     text-decoration: none;
 }
 
 .bk-blue {
-    background-color: #0282f9;
+    background-color: $primarycolor;
 }
 
 .bk-image {

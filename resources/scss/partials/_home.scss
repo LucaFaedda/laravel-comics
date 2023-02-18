@@ -14,6 +14,9 @@
     margin: 3px;
 }
 
+@use './variables' as *;
+@use './mixin' as *;
+
 .image-container {
     width: 250px;
     height: 250px;
@@ -30,7 +33,7 @@
 }
 
 .btn-personalizzato {
-    background-color: #0282f9;
+    background-color: $primarycolor;
     border: none;
     padding: 15px 70px;
 
