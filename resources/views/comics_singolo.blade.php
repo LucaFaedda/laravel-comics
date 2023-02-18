@@ -3,14 +3,16 @@
     <div class="container">
         <div class="row">
             <div class="col-8">
-                <h1>{{$comics_singolo['title']}}</h1>
-            <div class="row d-flex ">
-                <div class="col-8 d-flex justify-content-between .bg-success">
-                   <p> {{$comics_singolo['price']}}</p>
-                   <p>AVAIABLE</p>
+                <h1 class="light-blu ">{{$comics_singolo['title']}}</h1>
+            <div class="row d-flex bg-green  border-bottom border-1 border-dark align-items-center">
+                <div class="col-9 d-flex justify-content-between align-items-center border-end border-1 border-dark  p-2 ">
+                    <div class="d-flex">
+                        <span class="me-1 light-green">U.S. Price:</span><p class="m-0 text-light"> {{$comics_singolo['price']}}</p>
+                    </div>
+                   <p class="m-0 light-green">AVAIABLE</p>
                 </div>
-                <div class="col-4">
-                    <select>
+                <div class="col-2 d-flex flex-row-reverse align-items-center  p-2 ms-2">
+                    <select class="select-personalizzata">
                         <option value="select">Check Availability</option>
                     </select>
 

@@ -1,0 +1,22 @@
+@use './variables' as *;
+@use './mixin' as *;
+
+
+.bg-green {
+    background-color: #55ba59;
+}
+
+.light-green {
+    color: #adfd9c;
+}
+
+.light-blu {
+    color: #003f5e
+}
+
+
+.select-personalizzata {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
