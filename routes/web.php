@@ -110,3 +110,19 @@ Route::get('shop', function () {
     $listaSocial= config('social');
     return view('shop', compact( 'listaFooter', 'listaIcone', 'listaSocial'));
 })->name('shop');
+
+// sezione comics singolo
+
+Route::get('/home/{param}', function ($param) {
+
+    $prodotto = config('comics');
+
+    $comics_singolo = '';
+    foreach($prodotto as $fumetto){
+        if($fumetto['series'] == $param){
+            $comics_singolo = $fumetto;
+        }
+    }
+    
+   return view('comics_singolo', compact( 'comics_singolo'));
+})->name('comics_singolo');

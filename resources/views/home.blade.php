@@ -14,7 +14,7 @@
                             @foreach ($prodotto as $fumetto)
             
                                 <div class="card-personalizzata">
-                                    <a>
+                                    <a href="{{rotue('comics_single', ['params' => $fumetto['series']])}}">
                                         <div class="image-container">
                                             <img src="{{$fumetto['thumb']}}">
                                         </div>
