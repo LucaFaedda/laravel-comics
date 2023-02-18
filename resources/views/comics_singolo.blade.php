@@ -18,6 +18,9 @@
 
                 </div>
             </div>
+            <p class="my-2">
+                {{$comics_singolo['description']}}
+            </p>
 
             
             </div>
