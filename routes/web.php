@@ -127,6 +127,7 @@ Route::get('/comics_singolo/{series}', function ($series) {
         }
     }
     
+    // in generale si utilizzano gli ID del prodotto salvato nel db. Per questo abbiamo dovuto usare la key.
     
    return view('comics_singolo', compact( 'comics_singolo','listaFooter', 'listaIcone', 'listaSocial'));
 });
